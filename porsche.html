@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <style>
+        .porsche {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-evenly;
+            flex-direction: row;
+            background-color: beige;
+            flex: 1;
+        }
+        .navbar-brand img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .navbar {
+            min-height: 70px;
+        }
+        .search-bar {
+            width: 500px;
+            margin-left: 200px;
+        }
+        button {
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        .porsche > div {
+            width: 300px;
+            padding: 10px 5px 10px 5px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <title>Porsche Cars</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpeg" alt="Porsche Logo">
+            </a>
+            <div class="d-flex align-items-center">
+                <form class="d-flex search-bar">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="porsche.html">Porsche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#audi">Audi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vw">VW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bmw.html">BMW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="porsche">
+        <div>
+            <img src="images/cayenne.jpg" alt="Porsche Cayenne" width="100%">
+            <h3>Porsche Cayenne</h3>
+            <p>A new level of mobile luxury. The Porsche Cayenne merges elegance and sovereignty with the sportiness of an iconic SUV.</p>
+            <button type="button" onclick="location.href='https://www.porsche.com/international/models/cayenne/cayenne-models/'">Know More</button>
+        </div>
+        <div>
+            <img src="images/cayman.jpg" alt="Porsche Cayman" width="100%">
+            <h3>Porsche Cayman</h3>
+            <p>A cockpit designed for the racetrack: driver-oriented, the Porsche Cayman promises a thrilling driving experience.</p>
+            <button type="button" onclick="location.href='https://www.porsche.com/international/models/718/718-cayman-models/'">Know More</button>
+        </div>
+        <div>
+            <img src="images/panamera.jpg" alt="Porsche panamera" width="100%">
+            <h3>Porsche Taycan</h3>
+            <p>Uncompromisingly non-conformist – the Porsche Taycan stands for electrifying performance and innovative design.</p>
+            <button type="button" onclick="location.href='https://www.porsche.com/international/models/taycan/taycan-models/'">Know More</button>
+        </div>
+    </div>
+    <div class="porsche">
+        <div>
+            <img src="images/GT3.jpg" alt="Porsche 911" width="100%">
+            <h3>Porsche 911</h3>
+            <p>The Porsche 911, an icon of automotive engineering, represents pure driving pleasure and timeless design.</p>
+            <button type="button" onclick="location.href='https://www.porsche.com/international/models/911/911-models/'">Know More</button>
+        </div>
+        <div>
+            <img src="images/gt3 (2).jpg" alt="Porsche 911 GT3 RS" width="100%">
+            <h3>Porsche 911 GT3 RS</h3>
+            <p>When dynamics meet luxury, the result is something unique: the Porsche 911 GT3 RS delivers breathtaking performance and precise handling.</p>
+            <button type="button" onclick="location.href='https://www.porsche.com/international/models/911/911-gt3-models/'">Know More</button>
+        </div>
+        <div>
+            <img src="images/taycan.jpg" alt="gt" width="100%">
+            <h3>Porsche Panamera</h3>
+            <p>The Porsche Panamera redefines luxury in a four-door sports car, combining elegance with unparalleled performance.</p>
+            <button type="button" onclick="location.href='https://www.porsche.com/international/models/panamera/panamera-models/'">Know More</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
