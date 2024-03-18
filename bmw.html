@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+
+    
+    <style>
+        
+.bmw{
+    display:flex;
+  flex-wrap: wrap;
+    align-items:baseline;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-color:beige;
+    flex:1;
+    
+}
+.navbar-brand img {
+            height: 40px; /* Set the height of the logo */
+            margin-right: 10px; /* Add some space between logo and text */
+        }
+        .navbar {
+            min-height: 70px; /* Increase the height of the navbar */
+        }
+        .search-bar {
+            width: 500px; /* Set a fixed width for the search bar */
+            margin-left: 200px; 
+        }
+
+
+
+button{
+    background-color:#0d6efd;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.bmw>div{      
+    width:300px;
+  padding:10px 5px 10px 5px;
+    background-color: black;
+    color: white;
+}
+    </style>
+    <title>BMW Flexbox</title>
+    </head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo1.png" alt="Car Blog Logo">
+            </a>
+            <div class="d-flex align-items-center">
+                <form class="d-flex search-bar">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="porsche">Porsche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="audi.html">Audi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vw">VW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bmw.html">BMW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bmw">
+        <div>
+            <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https%3A%2F%2Fcdni.autocarindia.com%2FExtraImages%2F20210114120710_BMW_320Ld_tracking.jpg&h=795&w=1200&c=1" alt="image" srcset="" width="100%" >
+            <h3>BMW 3 THE GRAN LIMOUSINE</h3>
+            <p>A new level of mobile luxury. The BMW 3 Series Gran Limousine merges the elegance and sovereignty with the sportiness of the iconic BMW 3 Series.</p>
+            <button type="button" onclick="location.href='https://www.bmw.in/en/all-models/3-series/gran-limousine/2021/bmw-3-series-gran-limousine-highlights.html'">Know More</button>
+        </div>
+        <div>
+            <img src="https://cimg3.ibsrv.net/ibimg/hgm/1920x1080-1/100/649/2019-bmw-m2_100649835.jpg" alt="image" srcset="" width="100%" >
+            <h3>BMW M2</h3>
+            <p>A cockpit that could have been constructed for the racetrack: systematically driver-oriented, the M specific instrument display appears with red dials, centrally positioned oil gauge and M2 Competition lettering.</p>
+            <button type="button" onclick="location.href=''">Know More</button>
+        </div>
+        <div>
+            <img src="https://www.insidehook.com/wp-content/uploads/2020/03/x6hero.jpg?fit=1500%2C1000" alt="image" srcset="" width="100%" >
+            <h3>BMW X6</h3>
+            <p>Uncompromisingly non-conformist – the all-new BMW X6 stands for provocative self-assertiveness. </p>
+            <button type="button" onclick="location.href='https://www.bmw.in/en/all-models/x-series/X6/2020/bmw-x6-inspire.html'">Know More</button>
+        </div>
+    </div>
+    <div class="bmw">
+        <div>
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/BMW-Z4/6873/1554784181731/front-left-side-47.jpg?tr=h-48" alt="image" width="100%" >
+            <h3>BMW Z4</h3>
+            <p>When the roof opens, at the latest, that’s when there are no more limits to driving pleasure in the BMW Z4. A roadster that could not be any better: open, sporty and uncompromising. </p>
+            <button type="button" onclick="location.href='https://www.bmw.in/en/all-models/z-series/Z4/2018/bmw-z4-highlights.html'">Know More</button>
+        </div>
+        <div>
+            <img src="https://cdn.carbuzz.com/gallery-images/840x560/433000/400/433493.jpg" alt="image" srcset="" width="100%">
+            <h3>BMW 8 Series </h3>
+            <p>When dynamics meet luxury, the result is something unique: the BMW 8 Series Gran Coupé is a breathtaking four-door sports car with a generous sensation of space.</p>
+            <button type="button" onclick="location.href='https://www.bmw.in/en/all-models/8-series/gran-coupe/2020/bmw-8-series-gran-coupe-inspire.html'">Know More</button>
+        </div>
+        <div>
+            <img src="https://images.hgmsites.net/hug/bmw-7-series_100688128_h.jpg" alt="image" srcset="" width="100%">
+            <h3>BMW 7 Series</h3>
+            <p>Featuring new exquisite design details, the finest materials and powerful innovations, the BMW 7 Series Saloon, delivers a new echelon of driving pleasure. </p>
+            <button type="button" onclick="location.href='https://www.bmw.in/en/all-models/7-series/sedan/2019/bmw-7-series-sedan-inspire.html'">Know More</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 AUTOMOTIVE. All Rights Reserved.</p>
+            
+        </div>
+    </footer>
+</body>
+</html>
